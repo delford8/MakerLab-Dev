@@ -41,8 +41,8 @@ namespace MakerLab
                             oldTextCC = CrearContraseña.Text;
                             CrearContraseña.Text = oldTextCC;
 
-                            CrearContraseña.BackColor = Color.White;
-                            CrearContraseña.ForeColor = Color.Black;
+                            CrearContraseña.BackColor = Color.Black;
+                            CrearContraseña.ForeColor = Color.White;
                         }
                         else
                         {
@@ -109,8 +109,8 @@ namespace MakerLab
                 oldTextCU = CrearUsuario.Text;
                 CrearUsuario.Text = oldTextCU;
 
-                CrearUsuario.BackColor = System.Drawing.Color.White;
-                CrearUsuario.ForeColor = System.Drawing.Color.Black;
+                CrearUsuario.BackColor = System.Drawing.Color.Black;
+                CrearUsuario.ForeColor = System.Drawing.Color.White;
             }
             else
             {
@@ -221,8 +221,8 @@ namespace MakerLab
                             oldTextCRC = CrearReContraseña.Text;
                             CrearReContraseña.Text = oldTextCRC;
 
-                            CrearReContraseña.BackColor = Color.White;
-                            CrearReContraseña.ForeColor = Color.Black;
+                            CrearReContraseña.BackColor = Color.Black;
+                            CrearReContraseña.ForeColor = Color.White;
                         }
                         else
                         {
@@ -264,8 +264,8 @@ namespace MakerLab
                 oldTextCR = ClaveRegistro.Text;
                 ClaveRegistro.Text = oldTextCR;
 
-                ClaveRegistro.BackColor = System.Drawing.Color.White;
-                ClaveRegistro.ForeColor = System.Drawing.Color.Black;
+                ClaveRegistro.BackColor = System.Drawing.Color.Black;
+                ClaveRegistro.ForeColor = System.Drawing.Color.White;
             }
             else
             {

@@ -163,8 +163,8 @@ namespace MakerLab
                             oldText2 = textBox2.Text;
                             textBox2.Text = oldText2;
 
-                            textBox2.BackColor = Color.White;
-                            textBox2.ForeColor = Color.Black;
+                            textBox2.BackColor = Color.Black;
+                            textBox2.ForeColor = Color.White;
                         }
                         else
                         {
@@ -259,8 +259,8 @@ namespace MakerLab
                     oldText = textBox1.Text;
                     textBox1.Text = oldText;
 
-                    textBox1.BackColor = System.Drawing.Color.White;
-                    textBox1.ForeColor = System.Drawing.Color.Black;
+                    textBox1.BackColor = System.Drawing.Color.Black;
+                    textBox1.ForeColor = System.Drawing.Color.White;
                 }
                 else
                 {

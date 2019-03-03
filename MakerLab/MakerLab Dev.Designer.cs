@@ -35,7 +35,6 @@
             this.panelAdminBoton = new System.Windows.Forms.Button();
             this.TipoDeCuenta = new System.Windows.Forms.Label();
             this.NombreUsuario = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Indicador = new System.Windows.Forms.Panel();
             this.pitem5 = new System.Windows.Forms.Button();
@@ -45,13 +44,13 @@
             this.pitem1 = new System.Windows.Forms.Button();
             this.BarraSuperior = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.TituloControl = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.alertas1 = new MakerLab.Alertas();
             this.inicioControl1 = new MakerLab.InicioControl();
@@ -61,19 +60,18 @@
             this.reportar1 = new MakerLab.Reportar();
             this.MenuDeslizante.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verificado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraSuperior.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuDeslizante
             // 
-            this.MenuDeslizante.BackColor = System.Drawing.Color.DodgerBlue;
+            this.MenuDeslizante.BackColor = System.Drawing.Color.Black;
             this.MenuDeslizante.Controls.Add(this.verificado);
             this.MenuDeslizante.Controls.Add(this.panelAdminBoton);
             this.MenuDeslizante.Controls.Add(this.TipoDeCuenta);
             this.MenuDeslizante.Controls.Add(this.NombreUsuario);
-            this.MenuDeslizante.Controls.Add(this.pictureBox1);
             this.MenuDeslizante.Controls.Add(this.label4);
+            this.MenuDeslizante.Controls.Add(this.label3);
             this.MenuDeslizante.Controls.Add(this.Indicador);
             this.MenuDeslizante.Controls.Add(this.pitem5);
             this.MenuDeslizante.Controls.Add(this.pitem4);
@@ -135,16 +133,6 @@
             this.NombreUsuario.TabIndex = 4;
             this.NombreUsuario.Text = "Bienvenido\r\n";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, -5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(189, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -158,7 +146,7 @@
             // 
             // Indicador
             // 
-            this.Indicador.BackColor = System.Drawing.Color.RoyalBlue;
+            this.Indicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.Indicador.Location = new System.Drawing.Point(3, 156);
             this.Indicador.Name = "Indicador";
             this.Indicador.Size = new System.Drawing.Size(10, 63);
@@ -249,13 +237,12 @@
             // 
             // BarraSuperior
             // 
-            this.BarraSuperior.BackColor = System.Drawing.Color.DodgerBlue;
+            this.BarraSuperior.BackColor = System.Drawing.Color.Black;
             this.BarraSuperior.Controls.Add(this.label1);
             this.BarraSuperior.Controls.Add(this.button2);
             this.BarraSuperior.Controls.Add(this.button1);
             this.BarraSuperior.Controls.Add(this.TituloControl);
             this.BarraSuperior.Controls.Add(this.button7);
-            this.BarraSuperior.Controls.Add(this.label3);
             this.BarraSuperior.Controls.Add(this.button6);
             this.BarraSuperior.Controls.Add(this.button3);
             this.BarraSuperior.Dock = System.Windows.Forms.DockStyle.Top;
@@ -278,21 +265,6 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "(0)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(787, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(30, 30);
-            this.button3.TabIndex = 14;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -354,13 +326,13 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 12);
+            this.label3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(3, 8);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(188, 36);
+            this.label3.Size = new System.Drawing.Size(206, 78);
             this.label3.TabIndex = 4;
-            this.label3.Text = "MakerLab Dev";
+            this.label3.Text = "ASMIE";
             // 
             // button6
             // 
@@ -376,6 +348,21 @@
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(787, 15);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(30, 30);
+            this.button3.TabIndex = 14;
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // timer1
             // 
@@ -435,7 +422,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1191, 652);
-            this.Controls.Add(this.alertas1);
             this.Controls.Add(this.inicioControl1);
             this.Controls.Add(this.BarraSuperior);
             this.Controls.Add(this.MenuDeslizante);
@@ -443,6 +429,7 @@
             this.Controls.Add(this.perfilControl1);
             this.Controls.Add(this.datosControl1);
             this.Controls.Add(this.reportar1);
+            this.Controls.Add(this.alertas1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MakerLab_Dev";
@@ -451,7 +438,6 @@
             this.MenuDeslizante.ResumeLayout(false);
             this.MenuDeslizante.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verificado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraSuperior.ResumeLayout(false);
             this.BarraSuperior.PerformLayout();
             this.ResumeLayout(false);
@@ -472,7 +458,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label TituloControl;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label TipoDeCuenta;
         private System.Windows.Forms.Label NombreUsuario;
         private InicioControl inicioControl1;
